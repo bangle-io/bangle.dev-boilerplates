@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [create-react-app-v4, create-react-app-v3]
+        project: [create-react-app-v4, create-react-app-v3, webpack-v4]
     steps:
       - uses: actions/checkout@v2
       - name: Build "${{ matrix.project }}"
