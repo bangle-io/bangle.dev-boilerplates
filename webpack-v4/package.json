@@ -27,9 +27,9 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "@bangle.dev/core": "0.4.1",
-    "@bangle.dev/react": "0.4.1",
-    "@bangle.dev/react-menu": "0.4.1",
-    "@bangle.dev/tooltip": "0.4.1"
+    "@bangle.dev/core": "0.3.0",
+    "@bangle.dev/react": "0.3.0",
+    "@bangle.dev/react-menu": "0.3.0",
+    "@bangle.dev/tooltip": "0.3.0"
   }
 }
