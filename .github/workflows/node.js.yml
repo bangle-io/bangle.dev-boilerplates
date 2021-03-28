@@ -1,0 +1,25 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [create-react-app-v4, create-react-app-v3]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build "${{ matrix.project }}"
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - run: cd ${{ matrix.project }} && yarn install
+      - run: cd ${{ matrix.project }} && yarn build
