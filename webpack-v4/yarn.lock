@@ -884,10 +884,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bangle.dev/core@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/core/-/core-0.3.0.tgz#1395e59948e50aebd4672a6b1aa61b69d4034bfc"
-  integrity sha512-65EUrkcVARYM4KMKTFRQNWsd5XMAoLbWWqpWWk0VBRE66QYqUAh7bauDmXPr4uGuYn4NUQ4S8mjd3apmMVq41g==
+"@bangle.dev/core@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/core/-/core-0.4.1.tgz#4d65311c890f98c6c84deb031b420d4823b68d30"
+  integrity sha512-QEWSviAllEnSjy6bHtLP40CqjZXYgj1bc4gkyi1YOBjRvfhJfhgGao7gNucy2kwpD3dBXr0Gm9TG+uq2ndPKAQ==
   dependencies:
     prosemirror-commands "^1.1.4"
     prosemirror-dropcursor "^1.3.2"
@@ -903,25 +903,25 @@
     prosemirror-utils "^0.9.6"
     prosemirror-view "^1.16.3"
 
-"@bangle.dev/react-menu@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/react-menu/-/react-menu-0.3.0.tgz#572a7be635a0ca8a93dbdfccbc24d6096debd37b"
-  integrity sha512-LJdczl6W69NJqOC62q7uiZxqrHN0zzq+OVorW5lXTFpj8M0JWF0LXZHVO8RBgFBFbZYsazJ2uyTaq6AxGqeJpA==
+"@bangle.dev/react-menu@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/react-menu/-/react-menu-0.4.1.tgz#0f45ca0f9a720ea46536689ec6bec34ad5ca3f62"
+  integrity sha512-Mg+LOREGimuyFsOBQPt+EKtYRgA/0885BxGfuD8buIvaO18EE8dgsyA5iIQ3ZOC3dQVsOhbZYxapZ/9xM98Tow==
   dependencies:
     prop-types "^15.7.2"
 
-"@bangle.dev/react@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/react/-/react-0.3.0.tgz#0c8149ffb06eb383d23b5856d0a600fbb2b6adad"
-  integrity sha512-DFnxpQYWLXEzQQNdN7cKYGfiHZox3xf5sosOyBzieImRxPtnuLJLclhbY8WTbvv6Zk1/Rczc7TKFc9MILskHIQ==
+"@bangle.dev/react@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/react/-/react-0.4.1.tgz#541b295f34039e7a42ac06b68e292db3e94e2a18"
+  integrity sha512-qQsq/LIu9tyHG2yI60G1k4Ox7LgajiNfEOTxpob1ekcnFfiPRXZUD1ORdMXgPyXAWIWv1hwXBVXsYVmsCPJZ8g==
   dependencies:
     prop-types "^15.7.2"
     punycode "^2.1.1"
 
-"@bangle.dev/tooltip@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/tooltip/-/tooltip-0.3.0.tgz#8b5c678d1d90a0e94f2a1e0fa29929cc5a3497ce"
-  integrity sha512-YdeL0ArG+sa9VZ4PCx6EPMLF5zfbq38Qip47nyljz3FNTIag2Fm9fZXXEZ1aST72T3OXJrMTAVgRMo2I/vxa4A==
+"@bangle.dev/tooltip@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/tooltip/-/tooltip-0.4.1.tgz#294bcfbeb04ea84fb4b766b2973b8878353fd06c"
+  integrity sha512-XdfX7evhgMlnXu6Qr+Ju9Kf+AKQtaV7kXZPg19uwtz5AGKUQ2RHuDAoqP1JqzmFlOXa/KObD9hPyip5wXHqpTA==
   dependencies:
     "@popperjs/core" "^2.5.4"
 
