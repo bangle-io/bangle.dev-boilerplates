@@ -1,2 +1,3 @@
 # bangle.dev-boilerplates
-Bunch of starter boilerplates for bangle.dev
+
+This repository contains boilerplates on how to integrate bangle.dev with your favourite toolchain.
