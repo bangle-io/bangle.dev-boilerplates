@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bangle.dev/core": "latest",
+    "@bangle.dev/react": "latest",
+    "@bangle.dev/react-menu": "latest",
+    "@bangle.dev/tooltip": "latest",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "3.4.4",
-    "@bangle.dev/core": "latest",
-    "@bangle.dev/react": "latest",
-    "@bangle.dev/react-menu": "latest",
-    "@bangle.dev/tooltip": "latest"
+    "react-scripts": "3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
