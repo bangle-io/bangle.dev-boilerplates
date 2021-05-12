@@ -1,0 +1,1 @@
+This is an example of how you can use `@bangle.dev` with vite and vanilla javascript.

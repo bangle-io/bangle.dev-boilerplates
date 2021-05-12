@@ -1,0 +1,21 @@
+{
+  "name": "vanillajs__vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "Kushan Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "@bangle.dev/core": "0.4.1"
+  },
+  "devDependencies": {
+    "vite": "^2.2.3"
+  }
+}
