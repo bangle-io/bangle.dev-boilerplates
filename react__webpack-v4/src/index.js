@@ -9,5 +9,5 @@ ReactDOM.render(
   <div className="App">
     <Editor />
   </div>,
-  document.getElementById("app")
+  document.getElementById("root")
 );

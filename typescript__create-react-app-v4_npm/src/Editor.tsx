@@ -26,7 +26,7 @@ export function Editor() {
       state={editorState}
       style={{ margin: "10px 20px 0 20px", backgroundColor: "white" }}
     >
-      <FloatingMenu menuKey={menuKey} renderMenuType={undefined as any} />
+      <FloatingMenu menuKey={menuKey} />
     </BangleEditor>
   );
 }
