@@ -9,3 +9,5 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
+
+console.log("here");
