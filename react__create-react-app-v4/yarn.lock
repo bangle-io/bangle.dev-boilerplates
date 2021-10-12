@@ -1110,17 +1110,33 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bangle.dev/core@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/core/-/core-0.25.0.tgz#4c63fb89857fe52c360c81b1dd49d88f1733c299"
-  integrity sha512-h5FTEiBVCZJbN+Tcf1hYXINA3jlRMSijCd2obL+GY9LXpzAF2EJrqXn2dH/y1KSodi/b1sGqSGXehg8VTanPNw==
+"@bangle.dev/base-components@0.27.6", "@bangle.dev/base-components@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/base-components/-/base-components-0.27.6.tgz#674046d0c6563fd42b047598b5d414f728478810"
+  integrity sha512-k3/ec5kjVcp3fl0cuZPbLVArURUYrIKvhXnuyS4w3bsI6gTMxNQ9z23Zg+jIaPOJZaeobADkAAH/MYI1on8bVQ==
   dependencies:
-    "@bangle.dev/utils" "0.25.0"
+    "@bangle.dev/pm-commands" "0.27.6"
+    "@bangle.dev/utils" "0.27.6"
 
-"@bangle.dev/pm@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/pm/-/pm-0.8.0.tgz#b222ae8065f9edc1cc4322b45dea227cb02381f4"
-  integrity sha512-LdpCMKnle8wcAu2d6PZuR1dMK3SPllZ9/e3HbErMInbX3d481CYgYTISL4UXiRpIg17PPWTEhJk5JqC3pHx5eA==
+"@bangle.dev/core@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/core/-/core-0.27.6.tgz#efa219de46a42e69868c73084f12dc18fe641109"
+  integrity sha512-MJk3kf7lz6GnJy7PkKXEqcaQ9vAjtyI8c/lQipO+Up3aEbSsE+HPZP4bjAj22f6LUy9ZfKjPv70DrVrWrsUgkA==
+  dependencies:
+    "@bangle.dev/pm-commands" "0.27.6"
+    "@bangle.dev/utils" "0.27.6"
+
+"@bangle.dev/pm-commands@0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/pm-commands/-/pm-commands-0.27.6.tgz#c721fd55f2209b32ed226cb90ccdc23bae0a8521"
+  integrity sha512-DwsJt0JUqObm3x8591HpOVQ1B5a9qB3+2tHlhOqnh0/s43HVpNk3ybVMVOLJf0Qi82K0JFymW5+mrHfRIWUdXQ==
+  dependencies:
+    "@bangle.dev/utils" "0.27.6"
+
+"@bangle.dev/pm@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/pm/-/pm-0.27.6.tgz#25cb7dc8efc363a0a5936a62cfa689574a7865e5"
+  integrity sha512-2CcqviYzwrH2JpOTzRwp/P8jKayMcvRV/uF9u8lFDqEQUSvFbiXiRpLbbRDIO4WNunEG3cN3pV3/f899K/Y5xw==
   dependencies:
     "@types/prosemirror-commands" "1.x"
     "@types/prosemirror-dropcursor" "1.x"
@@ -1141,42 +1157,43 @@
     prosemirror-keymap "^1.1.4"
     prosemirror-model "^1.1.0"
     prosemirror-schema-list "^1.1.5"
-    prosemirror-state "^1.0.0"
+    prosemirror-state "^1.0.1"
     prosemirror-tables "^1.1.1"
     prosemirror-transform "^1.1.0"
     prosemirror-view "^1.10.0"
 
-"@bangle.dev/react-menu@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/react-menu/-/react-menu-0.25.0.tgz#8f73e098fbba0951776ed2e2ac584ec829aa2a98"
-  integrity sha512-jPACYmAPwnWtp12PAx6+opMV8+GATVUo0f0Ci9qZs5rncu7cynZobLkCDOKInE4sJ50hoW/DW4W6qDwsIwSSng==
+"@bangle.dev/react-menu@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/react-menu/-/react-menu-0.27.6.tgz#5e99f88097b994be9b93811147b8c0ee01eba9ca"
+  integrity sha512-EbyHK8Z6fBVXdq4F+m07mVcZ/MmvdA4OiJ52RMnQmHcCwj67LspyeQ76mgB15tO8L3aUUINGd5QGiOQnvo0pLQ==
   dependencies:
-    "@bangle.dev/utils" "0.25.0"
+    "@bangle.dev/base-components" "0.27.6"
+    "@bangle.dev/utils" "0.27.6"
     prop-types "^15.7.2"
 
-"@bangle.dev/react@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/react/-/react-0.25.0.tgz#aecf37e68f606a4c69b2014e7c109379a6d0ea9e"
-  integrity sha512-XT1pGPnVDH8jz7QsP9PHXpT07QVOz3KKuXfPrxeX58ejQWN+/5SevQCraJfOaqRAWhZ92BhCG7xbAkgYXPGhBg==
+"@bangle.dev/react@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/react/-/react-0.27.6.tgz#57900ba2be7872deac5d44635d327fe6bbfd65ed"
+  integrity sha512-vPuYNk0w7AzPnonH8xXEp2EIvOdu2FM/00Ti/7rZ2MMRK92yNg4LJQVtI+EAk8m5M1/8oy7VT9ljRmYzlh67pg==
   dependencies:
-    "@bangle.dev/utils" "0.25.0"
+    "@bangle.dev/utils" "0.27.6"
     prop-types "^15.7.2"
     punycode "^2.1.1"
 
-"@bangle.dev/tooltip@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/tooltip/-/tooltip-0.25.0.tgz#81ed53d5051cc7d53a58e85d2e525723e42c0fcd"
-  integrity sha512-iGQa+4qbtZDWAIqZHB8mtBT+MOzIjOG9OcFXqr+9xKI4vmH+wfClSDmdOj7abzgZc16MrY5E9xOEoU9TCtuB9g==
+"@bangle.dev/tooltip@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/tooltip/-/tooltip-0.27.6.tgz#421e0feba860631d27f965f7e6a75f2637321b11"
+  integrity sha512-bvenPnjX8ryXf+rAx4A9WhmUeTSvWiDmo6cOtX4bwv2WJDRaWJFu++5AxTz9ilmMQBB9GYmGek6HW8tn9RSeww==
   dependencies:
-    "@bangle.dev/utils" "0.25.0"
+    "@bangle.dev/utils" "0.27.6"
     "@popperjs/core" "^2.5.4"
 
-"@bangle.dev/utils@0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/utils/-/utils-0.25.0.tgz#b8bb09d2cdd0bfc7589a91cb5db4b2c44b791e04"
-  integrity sha512-S59inBhdWpo5239XfEXsPiLfYjkGdqgozQ7B7ZJAj1o68EwDk/z/0QUi4yKQF0VeVMeCbS/SznELKq6zmMSBVQ==
+"@bangle.dev/utils@0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/utils/-/utils-0.27.6.tgz#cbbcd2f98b1f057cd9b265f9280821071ffc1c7d"
+  integrity sha512-MtqHAoLHimYxubFsoyErqI7p3RzlF3ols7VjjL5Nnu9b4U8xrB5Z0Qq/ntj3w71BQ6MJDhuCvHQ9ESjSPXld2A==
   dependencies:
-    prosemirror-model "^1.0.0"
+    prosemirror-model "^1.1.0"
     prosemirror-state "^1.0.1"
     prosemirror-utils "1.0.0-0"
 

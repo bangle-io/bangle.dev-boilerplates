@@ -3,11 +3,14 @@ import {
   Plugin,
   BangleEditor,
   BangleEditorState,
-  corePlugins,
-  coreSpec,
   SpecRegistry,
 } from "@bangle.dev/core";
-
+import {
+  bold,
+  listItem,
+  bulletList,
+  orderedList,
+} from "@bangle.dev/base-components";
 // This example is taking from https://bangle.dev/docs/examples/exporting-data#persisting-to-local-storage
 function getItemFromStorage() {
   try {
@@ -19,9 +22,17 @@ function getItemFromStorage() {
 
 export function Editor(domNode) {
   const state = new BangleEditorState({
-    specRegistry: new SpecRegistry(coreSpec()),
+    specRegistry: new SpecRegistry([
+      bold.spec(),
+      bulletList.spec(),
+      orderedList.spec(),
+      listItem.spec(),
+    ]),
     plugins: () => [
-      ...corePlugins(),
+      bold.plugins(),
+      bulletList.plugins(),
+      orderedList.plugins(),
+      listItem.plugins(),
       new Plugin({
         view: () => ({
           update: (view, prevState) => {

@@ -13,8 +13,9 @@
   "author": "Kushan Joshi",
   "license": "ISC",
   "dependencies": {
-    "@bangle.dev/core": "^0.25.0",
-    "@bangle.dev/pm": "^0.7.0"
+    "@bangle.dev/core": "^0.27.6",
+    "@bangle.dev/base-components":  "^0.27.6",
+    "@bangle.dev/pm": "^0.27.6"
   },
   "devDependencies": {
     "vite": "^2.2.3"
