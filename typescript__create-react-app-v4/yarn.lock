@@ -1161,10 +1161,10 @@
   dependencies:
     "@bangle.dev/utils" "0.27.6"
 
-"@bangle.dev/pm@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@bangle.dev/pm/-/pm-0.8.0.tgz#b222ae8065f9edc1cc4322b45dea227cb02381f4"
-  integrity sha512-LdpCMKnle8wcAu2d6PZuR1dMK3SPllZ9/e3HbErMInbX3d481CYgYTISL4UXiRpIg17PPWTEhJk5JqC3pHx5eA==
+"@bangle.dev/pm@^0.27.6":
+  version "0.27.6"
+  resolved "https://registry.yarnpkg.com/@bangle.dev/pm/-/pm-0.27.6.tgz#25cb7dc8efc363a0a5936a62cfa689574a7865e5"
+  integrity sha512-2CcqviYzwrH2JpOTzRwp/P8jKayMcvRV/uF9u8lFDqEQUSvFbiXiRpLbbRDIO4WNunEG3cN3pV3/f899K/Y5xw==
   dependencies:
     "@types/prosemirror-commands" "1.x"
     "@types/prosemirror-dropcursor" "1.x"
@@ -1185,7 +1185,7 @@
     prosemirror-keymap "^1.1.4"
     prosemirror-model "^1.1.0"
     prosemirror-schema-list "^1.1.5"
-    prosemirror-state "^1.0.0"
+    prosemirror-state "^1.0.1"
     prosemirror-tables "^1.1.1"
     prosemirror-transform "^1.1.0"
     prosemirror-view "^1.10.0"
